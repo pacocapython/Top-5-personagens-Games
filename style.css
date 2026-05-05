@@ -11,7 +11,6 @@ body {
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .first {
-    color: rgb(255, 255, 255);
     width: 65%;
     max-width: 800vx;
     background-color:   rgb(11, 0, 22);
@@ -21,4 +20,18 @@ body {
     margin-bottom: 50px;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(255, 4, 4, 0.5);
+}
+.first h1 {
+    color:rgb(255, 255, 255);
+   text-decoration:underline;
+   font-size:42px;
+}
+.first h2 {
+    color:rgb(255, 255, 255);
+    font-size:x-large
+}
+.first p {
+    color:rgb(255, 255, 255);
+    font-size:larger;
+    line-height:24px;
 }
