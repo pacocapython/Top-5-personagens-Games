@@ -32,6 +32,11 @@ body {
     box-shadow: 0 8px 15px -5px rgba(255, 0, 0, 0.8);   
     font-size:42px;
 }
+.first h1:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 15px 40px rgba(255, 4, 4, 0.6); 
+    border-color: #ff0044;
+}
 .first h2 {
     color:rgb(255, 255, 255);
     font-size:x-large
