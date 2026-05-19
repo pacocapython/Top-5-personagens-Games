@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    font-weight: 85%;
+    padding-top: 5%;
+    padding-bottom: 200%;
+}
+.personagens {
+    text-align: center;
+}
+.menu {
+    text-align: left;
+}
+.start {
+    text-align:center;
+}
