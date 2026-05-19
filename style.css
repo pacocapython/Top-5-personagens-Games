@@ -1,16 +1,41 @@
 body {
     background-color: rgb(255, 255, 255);
-    width: 100%;
-    font-weight: 85%;
-    padding-top: 5%;
-    padding-bottom: 200%;
+     width: 100%;
+      font-weight: 85%;
+        padding-bottom: 200%;
+         height: 200vh;
+         margin: 0;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pagina-inicial {
+    display: flex;
+     flex-direction: column;
+      text-align: center;
 }
 .personagens {
     text-align: center;
+     align-items: center;
+      padding-top: 5%;
+       padding-left: 35%;
+        padding-bottom: 3%;
 }
-.menu {
-    text-align: left;
+.personagens, header {
+    text-align: center;
+     align-items: center;
+      color:rgb(255, 0, 0)
+
+}
+.main {
+    text-align: center;
+     align-items: center;
+      padding-top: 1%;
 }
 .start {
-    text-align:center;
+    text-align: center;
+}
+.menu {
+    position: fixed;
+     padding-left: 0;
+      padding-top: 5%;
+          
 }
