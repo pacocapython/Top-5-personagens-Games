@@ -11,6 +11,7 @@ body {
         padding-bottom: 0%;
          height: 20vh;
           margin: 0;
+          
 }
 * {
     font-family: 'Press Start 2P', cursive;
@@ -74,6 +75,15 @@ body {
     background-color: rgb(9, 0, 0);
     color: #ff0404;
     border: 0.5vh solid #ff0000;
+}
+.rodape {
+   color: white;
+    text-align:center;
+     position: fixed;
+      bottom: 0;
+       left: 70px; 
+        right: 0;   
+         padding: 15px;
 }
 .menu {
     position: fixed;
