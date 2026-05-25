@@ -10,8 +10,7 @@ body {
        padding-top:3%;
         padding-bottom: 0%;
          height: 20vh;
-          margin: 0;
-          
+          margin: 0;    
 }
 * {
     font-family: 'Press Start 2P', cursive;
@@ -70,11 +69,20 @@ body {
           border: 0.5vh solid white;
            cursor: pointer;
             transition: 0.8s;
+             animation: brilhoPulse 5s infinite alternate;
 }
 .start button:hover {
     background-color: rgb(9, 0, 0);
     color: #ff0404;
     border: 0.5vh solid #ff0000;
+}
+@keyframes brilhoPulse {
+    from {
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5), inset 0 0 10px rgba(255, 0, 0, 0.3);
+    }
+    to {
+        box-shadow: 0 0 30px rgba(255, 0, 0, 1), inset 0 0 20px rgba(255, 0, 0, 0.6);
+    }
 }
 .rodape {
    color: white;
