@@ -1,41 +1,82 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('nave1.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
      width: 100%;
       font-weight: 85%;
-        padding-bottom: 200%;
-         height: 200vh;
-         margin: 0;
-          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       padding-top:3%;
+        padding-bottom: 0%;
+         height: 20vh;
+          margin: 0;
+}
+* {
+    font-family: 'Press Start 2P', cursive;
 }
 .pagina-inicial {
     display: flex;
      flex-direction: column;
       text-align: center;
 }
-.personagens {
-    text-align: center;
-     align-items: center;
-      padding-top: 5%;
-       padding-left: 35%;
-        padding-bottom: 3%;
-}
-.personagens, header {
-    text-align: center;
-     align-items: center;
-      color:rgb(255, 0, 0)
+.pagina-inical, header {
+    font-size: 200%;
+     text-align: center;
+      align-items: center;
+       color:rgb(255, 0, 0)
 
+}
+.personagens a {
+   color:#ff0000;
+    text-align: center;
+     align-items: center;
+     padding-top: 5%;
+       margin-left: 75%;
+        padding-bottom: 3%;
+         font-size: 160%;
+          cursor: pointer;
+           transition: 0.4s;
+            
+}
+.personagens:hover {
+     color:rgb(196, 8, 8)
+      
 }
 .main {
     text-align: center;
      align-items: center;
       padding-top: 1%;
+       color: rgb(0, 0, 0);
+        -webkit-text-stroke: 0.1px #ff0000;}
+.main, h1 {
+    font-size: 200%;
+}
+.main, h2 {
+    font-size: 125%;
+
 }
 .start {
     text-align: center;
 }
+.start button {
+    background-color: rgb(255, 0, 0);
+     color: rgb(255, 255, 255);
+      font-size: 250%;
+       padding: 15px 40px;
+        border-radius: 35px;
+         overflow: hidden;
+          border: 0.5vh solid white;
+           cursor: pointer;
+            transition: 0.8s;
+}
+.start button:hover {
+    background-color: rgb(9, 0, 0);
+    color: #ff0404;
+    border: 0.5vh solid #ff0000;
+}
 .menu {
     position: fixed;
-     padding-left: 0;
-      padding-top: 5%;
-          
+     color: white;
+      padding-left: 1%;
 }
