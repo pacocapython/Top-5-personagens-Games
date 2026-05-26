@@ -48,6 +48,7 @@ body {
 .personagens a:hover {
     color: #ffffff;
     text-shadow: 0 0 10px #ff0000;
+}
 .main {
     text-align: center;
      align-items: center;
