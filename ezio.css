@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to left, rgb(11, 0, 0), rgb(14, 0, 14));
+    background: linear-gradient(to left, rgb(11, 0, 0), rgb(8, 0, 8));
    min-height: 100vh;
    margin: 0; 
    padding-top: 50px;
@@ -10,10 +10,10 @@ body {
    text-align: center;
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-.leon {
+.ezio {
     width: 65%;
     max-width: 750px;
-    background-color:   rgb(8, 0, 15);
+    background-color:   rgb(6, 0, 11);
     border: 1px solid #1d1b1b;
     padding:40px;
     padding-top: 20px;
@@ -21,23 +21,23 @@ body {
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(255, 4, 4, 0.5);
 }
-.leon:hover {
+.ezio:hover {
     transform: translateY(-5px); 
     box-shadow: 0 15px 40px rgba(255, 4, 4, 0.6); 
     border-color: #ff0044; 
 }
-.leon h1 {
+.ezio h1 {
     color:rgb(255, 255, 255);
     border-bottom: 2px solid rgb(74, 1, 1);
     box-shadow: 0 8px 15px -5px rgba(255, 0, 0, 0.8);   
     font-size:42px;
 }
-.leon h1:hover {
+.ezio h1:hover {
     transform: translateY(-5px); 
     box-shadow: 0 15px 40px rgba(255, 4, 4, 0.6); 
     border-color: #ff0044;
 }
-.leon p {
+.ezio p {
     color:rgb(255, 255, 255);
     font-size: 18px;
     border-bottom: 2px solid rgb(82, 2, 2);
@@ -45,10 +45,10 @@ body {
     border-top: 2px solid rgb(98, 5, 5);
     padding-top:10px;
 }
-.leon strong {
+.ezio strong {
     color: rgb(255, 255, 255);
 }
-.leon strong:hover {
+.ezio strong:hover {
     color: rgb(255, 4, 4); 
     text-shadow: 0 0 15px rgb(255, 4, 4), 
                  0 0 30px rgb(255, 4, 4); 
