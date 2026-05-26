@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to left, rgb(11, 0, 0), rgb(14, 0, 14));
+    background: linear-gradient(to left, rgb(11, 0, 0), rgb(8, 0, 8));
    min-height: 100vh;
    margin: 0; 
    padding-top: 50px;
@@ -13,7 +13,7 @@ body {
 .joel {
     width: 65%;
     max-width: 750px;
-    background-color:   rgb(8, 0, 15);
+    background-color:   rgb(6, 0, 11);
     border: 1px solid #1d1b1b;
     padding:40px;
     padding-top: 20px;
