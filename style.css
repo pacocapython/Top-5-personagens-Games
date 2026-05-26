@@ -27,22 +27,27 @@ body {
        color:rgb(255, 0, 0)
 
 }
+.personagens {
+    position: absolute;
+    top: 20px;       
+    right: 5%;
+    text-align: right;
+}
 .personagens a {
-   color:#ff0000;
-    text-align: center;
-     align-items: center;
-     padding-top: 5%;
-       margin-left: 75%;
-        padding-bottom: 3%;
-         font-size: 160%;
-          cursor: pointer;
-           transition: 0.4s;
-            
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 130%; 
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    transition: 0.4s;
+    display: inline-block; 
+    margin-left: 20px;     
+    padding: 0;            
 }
-.personagens:hover {
-     color:rgb(196, 8, 8)
-      
-}
+
+.personagens a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px #ff0000;
 .main {
     text-align: center;
      align-items: center;
