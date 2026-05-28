@@ -23,10 +23,22 @@
         <header>PRESS START: LEGENDS</header>
         <br>
         <br>
+        
     </div>
-     <aside class="menu">
+     <aside class="menu" id="menuLateral">
+    <div class="abrirMenu" onclick="alternarMenu()">
         <h3>Menu:</h3>
-    </aside>
+    </div>
+    
+    <nav class="opcoes-menu">
+        <a href="#">Conta</a>
+        <a href="#">Título</a>
+        <a href="#">Favoritos</a>
+        <a href="#">Configurações</a>
+        <a href="#">Suporte</a>
+    </nav>
+</aside>
+
         <main class="main"> 
             <h1>Seja Bem-Vindo</h1>
             <h2>Conheça mais sobre os seus Personagens Favoritos!</h2>
@@ -34,6 +46,7 @@
             <br>
             <br>
         </main>
+
     <div class="start">
         <a href="personagens.html"><button>START</button></a>
     </div>
@@ -41,5 +54,12 @@
     <footer>Criado por Paçoca, 2026. Todos os direitos reservados.</footer>
     <p>gabrielgustavosv8@gmail.com</p>
     </div>
+
+    <script>
+    function alternarMenu() {
+        const menu = document.getElementById("menuLateral");     
+        menu.classList.toggle("aberto");
+    }
+</script>
 </body>
 </html>
